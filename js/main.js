@@ -140,7 +140,7 @@ function handleCheckout(e) {
     })
     .then(() => {
      
-        const yourZaloPhone = '84397768941'; // Số của bạn
+        const yourZaloPhone = '84377106117'; // Số của bạn
         let msg = `DON HANG MOI!\nKhach: ${name}\nSDT: ${phone}\nTong: ${formatCurrency(totalMoney)}\nChi tiet: ${productNames}`;
         const zaloUrl = `https://zalo.me/${yourZaloPhone}?text=${encodeURIComponent(msg)}`;
         
